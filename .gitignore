@@ -1,0 +1,36 @@
+# Node modules (installed dependencies)
+node_modules/
+
+# Environment variables (secrets, configs)
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# Editor / IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Coverage reports (if you add tests later)
+coverage/
+
+# Build output (future-proofing)
+dist/
+build/
+
+# Temporary files
+tmp/
+temp/
