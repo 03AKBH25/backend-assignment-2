@@ -1,6 +1,6 @@
 import express from 'express';
-import complaintRoutes from './routes/complaint.routes.js';
-import loggerMiddleware from './middleware/logger.middleware.js';
+import complaintRoutes from '../routes/complaint.routes.js';
+import loggerMiddleware from '../middleware/logger.middleware.js';
 
 const app = express();
 
